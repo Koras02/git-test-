@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Preferences>
+<uninstallts>2019-08-07T16:05:25</uninstallts>
+<NotificationLogFile>C:\Users\wjdgh0727\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log</NotificationLogFile>
+<LogLevel>2</LogLevel>
+<LastDateCheck>2020-07-26T17:08:58</LastDateCheck>
+<IsScheduledTaskAdded>1</IsScheduledTaskAdded>
+<IsScheduledTaskNeeded>0</IsScheduledTaskNeeded>
+<StartupLogFile>C:\Users\wjdgh0727\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log</StartupLogFile>
+<SilentNotificationLogFile>C:\Users\wjdgh0727\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log</SilentNotificationLogFile>
+<WebFeedEtag>&quot;4479f-58875c1fe25bf&quot;</WebFeedEtag>
+<WebFeedSize>280479</WebFeedSize>
+<WebFeedSeqNo>1</WebFeedSeqNo>
+<CSUVersion>9.0</CSUVersion>
+<OSVersion>6.2.9200</OSVersion>
+<IsFirstRun>0</IsFirstRun>
+<ChannelsInstalled>
+<MapPrefEntry MapPrefKey="AdobeApplicationManager-1.0">1</MapPrefEntry>
+</ChannelsInstalled>
+</Preferences>

@@ -1,0 +1,633 @@
+13:00:28 +0900 (0x00005144) [info] Starting handler at C:/Program Files/4KDownload/4kyoutubetomp3
+13:00:28 +0900 (0x00005144) [info] [app_Gui] [Translator] Using locale ko_KR
+13:00:29 +0900 (0x00005144) [info] [SoftwareUpdate] [Manager] appId=4kyoutubetomp3, appName=4K YouTube to MP3, appVersion=3.12.4.3690, appCast=https://dl.4kdownload.com/app/appcast/youtubetomp3.xml
+13:00:29 +0900 (0x00005144) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 65' (:0, )
+13:00:29 +0900 (0x00005144) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 65' (:0, )
+13:00:29 +0900 (0x00005144) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 65' (:0, )
+13:00:30 +0900 (0x00005144) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 65' (:0, )
+13:00:30 +0900 (0x00005144) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 65' (:0, )
+13:00:30 +0900 (0x00005144) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 65' (:0, )
+13:00:39 +0900 (0x00005144) [info] [SoftwareUpdate] [Manager] checking
+13:00:39 +0900 (0x00005144) [info] [SoftwareUpdate] [Manager] parsing
+13:00:39 +0900 (0x00005144) [info] [SoftwareUpdate] [Manager] no update available
+13:00:59 +0900 (0x00005144) [info] [Feedback] [MessageCenter] downloaded
+13:00:59 +0900 (0x00005144) [info] [Feedback] [MessageCenter] extracting messages
+13:00:59 +0900 (0x00005144) [info] [Feedback] [MessageCenter] extracted 0 messages
+13:01:19 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/determine_service
+13:01:19 +0900 (0x00005144) [info] App Graph: preparing request for graph: ServiceDeterminatorWorkerNode
+13:01:19 +0900 (0x00005144) [info] Creating new io context pool '' with 4 thread(s)
+13:01:19 +0900 (0x000051d8) [info] AsioContext::IoContext::threadFunc started
+13:01:19 +0900 (0x0000bdd4) [info] AsioContext::IoContext::threadFunc started
+13:01:19 +0900 (0x0000bf68) [info] AsioContext::IoContext::threadFunc started
+13:01:19 +0900 (0x00008c40) [info] AsioContext::IoContext::threadFunc started
+13:01:19 +0900 (0x00005144) [info] Attaching tracker node(DetermineServiceRequest::DetermineServiceSubscriber) to graph (ServiceDeterminatorWorkerNodeWrapper). Type: ServiceDeterminationResultMessage
+13:01:19 +0900 (0x00005144) [info] App Graph: performing request for url: parsers/determine_service
+13:01:19 +0900 (0x00008c40) [info] Entering coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:01:19 +0900 (0x0000bf68) [info] Entering coroutine for node ServiceDeterminatorWorkerNode
+13:01:19 +0900 (0x0000bf68) [info] Exiting coroutine for node ServiceDeterminatorWorkerNode
+13:01:19 +0900 (0x0000bdd4) [info] Exiting coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:01:19 +0900 (0x00005144) [info] Starting simultaneously running controllers queue 'parse' with limit 20
+13:01:19 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/youtube
+13:01:19 +0900 (0x00005144) [info] Creating connection from (YoutubeParserNode, 000002A25F35EDD0) to ( MediaDownloadItemConverterWorkerNode, 000002A25F450500). Type: MediaDownloadItemMessage
+13:01:19 +0900 (0x00005144) [info] App Graph: preparing request for graph: YoutubeParserGraph
+13:01:19 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: ProgressMessage
+13:01:19 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemDescriptionMessage
+13:01:19 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMetadataMessage
+13:01:19 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMessage
+13:01:19 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: SubtitleInfosMessage
+13:01:19 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+13:01:19 +0900 (0x00008c40) [info] Entering coroutine for node YoutubeParserNode
+13:01:19 +0900 (0x0000bdd4) [info] Entering coroutine for node MediaDownloadItemConverterWorkerNode
+13:01:19 +0900 (0x0000bf68) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:19 +0900 (0x000051d8) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:19 +0900 (0x00008c40) [info] Creating new io context pool 'parser' with 4 thread(s)
+13:01:19 +0900 (0x0000bdd4) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:19 +0900 (0x0000bf68) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:19 +0900 (0x0000bdd4) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:19 +0900 (0x000083b8) [info] AsioContext::IoContext::threadFunc started
+13:01:19 +0900 (0x00002ee0) [info] AsioContext::IoContext::threadFunc started
+13:01:19 +0900 (0x0000bc58) [info] AsioContext::IoContext::threadFunc started
+13:01:19 +0900 (0x00003120) [info] AsioContext::IoContext::threadFunc started
+13:01:19 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/determine_service
+13:01:19 +0900 (0x00005144) [info] App Graph: preparing request for graph: ServiceDeterminatorWorkerNode
+13:01:19 +0900 (0x00005144) [info] Attaching tracker node(DetermineServiceRequest::DetermineServiceSubscriber) to graph (ServiceDeterminatorWorkerNodeWrapper). Type: ServiceDeterminationResultMessage
+13:01:19 +0900 (0x00005144) [info] App Graph: performing request for url: parsers/determine_service
+13:01:19 +0900 (0x0000bf68) [info] Entering coroutine for node ServiceDeterminatorWorkerNode
+13:01:19 +0900 (0x00008c40) [info] Entering coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:01:19 +0900 (0x0000bf68) [info] Exiting coroutine for node ServiceDeterminatorWorkerNode
+13:01:19 +0900 (0x000051d8) [info] Exiting coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:01:19 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/youtube
+13:01:19 +0900 (0x00005144) [info] Creating connection from (YoutubeParserNode, 000002A25F35E290) to ( MediaDownloadItemConverterWorkerNode, 000002A25F44F540). Type: MediaDownloadItemMessage
+13:01:19 +0900 (0x00005144) [info] App Graph: preparing request for graph: YoutubeParserGraph
+13:01:19 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: ProgressMessage
+13:01:19 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemDescriptionMessage
+13:01:19 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMetadataMessage
+13:01:19 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMessage
+13:01:19 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: SubtitleInfosMessage
+13:01:19 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 2/0/20)
+13:01:19 +0900 (0x000051d8) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:19 +0900 (0x0000bf68) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:19 +0900 (0x00008c40) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:19 +0900 (0x0000bdd4) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:19 +0900 (0x000051d8) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:19 +0900 (0x0000bf68) [info] Entering coroutine for node YoutubeParserNode
+13:01:19 +0900 (0x00008c40) [info] Entering coroutine for node MediaDownloadItemConverterWorkerNode
+13:01:36 +0900 (0x0000bdd4) [info] Exiting coroutine for node YoutubeParserNode
+13:01:36 +0900 (0x00008c40) [info] Exiting coroutine for node YoutubeParserNode
+13:01:39 +0900 (0x00008c40) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:01:39 +0900 (0x0000bf68) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:01:39 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 1/0/20)
+13:01:39 +0900 (0x0000bf68) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:01:39 +0900 (0x000051d8) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:01:39 +0900 (0x00008c40) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:01:39 +0900 (0x00008c40) [info] Exiting coroutine for node MediaDownloadItemConverterWorkerNode
+13:01:39 +0900 (0x00005144) [info] Starting simultaneously running controllers queue 'download' with limit 20
+13:01:39 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A25F472830) to ( AudioWriterNode, 000002A25F456BA0). Type: FileMessage
+13:01:39 +0900 (0x00005144) [info] Creating connection from (AudioWriterNode, 000002A25F456BA0) to ( FileReleaserWorkerNode, 000002A25F5910F0). Type: FileMessage
+13:01:39 +0900 (0x00005144) [info] Creating connection from (SearchMusicTagsNode, 000002A25FC4E7D0) to ( AudioWriterNode, 000002A25F456BA0). Type: MusicMetadataMessage
+13:01:39 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A25F472830) to ( DownloadProgressWorkerNode, 000002A25F473430). Type: ContentSize
+13:01:39 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A25F472830) to ( DownloadProgressWorkerNode, 000002A25F473430). Type: ContentSize
+13:01:39 +0900 (0x00005144) [info] App Graph: preparing request for graph: Downloader Graph
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ProgressMessage
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: FileMessage
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RegisterFileMessage
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RemoveFileMessage
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ReleaseFileMessage
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: SubtitleMessage
+13:01:39 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'download' (current stats: (r/p/l) 1/0/20)
+13:01:39 +0900 (0x00008c40) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x000051d8) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x00008c40) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x00008c40) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x000051d8) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x00008c40) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x0000bf68) [info] Entering coroutine for node SearchMusicTagsNode
+13:01:39 +0900 (0x00008c40) [info] Entering coroutine for node AudioWriterNode
+13:01:39 +0900 (0x000051d8) [info] Entering coroutine for node AudioDownloaderWorkerNode
+13:01:39 +0900 (0x00008c40) [info] Entering coroutine for node FileReleaserWorkerNode
+13:01:39 +0900 (0x00008c40) [info] Entering coroutine for node SubtitlesDownloaderWorkerNode
+13:01:39 +0900 (0x00008c40) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:01:39 +0900 (0x00008c40) [info] Exiting coroutine for node SubtitlesDownloaderWorkerNode
+13:01:39 +0900 (0x000051d8) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:01:39 +0900 (0x0000bf68) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:01:39 +0900 (0x0000bdd4) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:01:39 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+13:01:39 +0900 (0x00008c40) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:01:39 +0900 (0x0000bf68) [info] Exiting coroutine for node MediaDownloadItemConverterWorkerNode
+13:01:39 +0900 (0x000051d8) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:01:39 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:01:39 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:01:39 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A25F472530) to ( AudioWriterNode, 000002A25F455860). Type: FileMessage
+13:01:39 +0900 (0x00005144) [info] Creating connection from (AudioWriterNode, 000002A25F455860) to ( FileReleaserWorkerNode, 000002A25F5912B0). Type: FileMessage
+13:01:39 +0900 (0x00005144) [info] Creating connection from (SearchMusicTagsNode, 000002A25FC4E170) to ( AudioWriterNode, 000002A25F455860). Type: MusicMetadataMessage
+13:01:39 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A25F472530) to ( DownloadProgressWorkerNode, 000002A25F472B30). Type: ContentSize
+13:01:39 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A25F472530) to ( DownloadProgressWorkerNode, 000002A25F472B30). Type: ContentSize
+13:01:39 +0900 (0x00005144) [info] App Graph: preparing request for graph: Downloader Graph
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ProgressMessage
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: FileMessage
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RegisterFileMessage
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RemoveFileMessage
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ReleaseFileMessage
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:01:39 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: SubtitleMessage
+13:01:39 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'download' (current stats: (r/p/l) 2/0/20)
+13:01:39 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x000051d8) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x00008c40) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x000051d8) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x00008c40) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:01:39 +0900 (0x000051d8) [info] Entering coroutine for node AudioDownloaderWorkerNode
+13:01:39 +0900 (0x0000bdd4) [info] Entering coroutine for node SearchMusicTagsNode
+13:01:39 +0900 (0x00008c40) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:01:39 +0900 (0x000051d8) [info] Entering coroutine for node FileReleaserWorkerNode
+13:01:39 +0900 (0x0000bf68) [info] Entering coroutine for node AudioWriterNode
+13:01:39 +0900 (0x00008c40) [info] Entering coroutine for node SubtitlesDownloaderWorkerNode
+13:01:39 +0900 (0x0000bf68) [info] Exiting coroutine for node SubtitlesDownloaderWorkerNode
+13:01:39 +0900 (0x00008c40) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:01:39 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:01:40 +0900 (0x0000bdd4) [info] Exiting coroutine for node AudioDownloaderWorkerNode
+13:01:40 +0900 (0x0000bf68) [info] Exiting coroutine for node AudioDownloaderWorkerNode
+13:01:42 +0900 (0x000051d8) [info] Exiting coroutine for node SearchMusicTagsNode
+13:01:42 +0900 (0x00008c40) [info] Exiting coroutine for node SearchMusicTagsNode
+13:01:43 +0900 (0x00008c40) [info] Exiting coroutine for node AudioWriterNode
+13:01:43 +0900 (0x000051d8) [info] Exiting coroutine for node FileReleaserWorkerNode
+13:01:43 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'download' (current stats: (r/p/l) 1/0/20)
+13:01:43 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:01:43 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:01:43 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:01:43 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:01:43 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:01:43 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:01:43 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:01:43 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadSubscriber
+13:01:43 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:01:44 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'download' (current stats: (r/p/l) 0/0/20)
+13:01:44 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:01:44 +0900 (0x00008c40) [info] Exiting coroutine for node AudioWriterNode
+13:01:44 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:01:44 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:01:44 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:01:44 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:01:44 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:01:44 +0900 (0x000051d8) [info] Exiting coroutine for node FileReleaserWorkerNode
+13:01:44 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:01:44 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:01:44 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:01:44 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/determine_service
+13:01:44 +0900 (0x00005144) [info] App Graph: preparing request for graph: ServiceDeterminatorWorkerNode
+13:01:44 +0900 (0x00005144) [info] Attaching tracker node(DetermineServiceRequest::DetermineServiceSubscriber) to graph (ServiceDeterminatorWorkerNodeWrapper). Type: ServiceDeterminationResultMessage
+13:01:44 +0900 (0x00005144) [info] App Graph: performing request for url: parsers/determine_service
+13:01:44 +0900 (0x0000bf68) [info] Entering coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:01:44 +0900 (0x0000bdd4) [info] Entering coroutine for node ServiceDeterminatorWorkerNode
+13:01:44 +0900 (0x0000bdd4) [info] Exiting coroutine for node ServiceDeterminatorWorkerNode
+13:01:44 +0900 (0x000051d8) [info] Exiting coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:01:44 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/youtube
+13:01:44 +0900 (0x00005144) [info] Creating connection from (YoutubeParserNode, 000002A2654A1900) to ( MediaDownloadItemConverterWorkerNode, 000002A25F44FFC0). Type: MediaDownloadItemMessage
+13:01:44 +0900 (0x00005144) [info] App Graph: preparing request for graph: YoutubeParserGraph
+13:01:44 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: ProgressMessage
+13:01:44 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemDescriptionMessage
+13:01:44 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMetadataMessage
+13:01:44 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMessage
+13:01:44 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: SubtitleInfosMessage
+13:01:44 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+13:01:44 +0900 (0x00008c40) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:44 +0900 (0x0000bdd4) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:44 +0900 (0x0000bf68) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:44 +0900 (0x000051d8) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:44 +0900 (0x0000bdd4) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:01:44 +0900 (0x0000bf68) [info] Entering coroutine for node YoutubeParserNode
+13:01:44 +0900 (0x000051d8) [info] Entering coroutine for node MediaDownloadItemConverterWorkerNode
+13:02:10 +0900 (0x0000bf68) [info] Exiting coroutine for node YoutubeParserNode
+13:02:17 +0900 (0x000051d8) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:02:17 +0900 (0x00008c40) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:02:17 +0900 (0x0000bf68) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:02:17 +0900 (0x0000bdd4) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:02:17 +0900 (0x0000bdd4) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:02:17 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+13:02:17 +0900 (0x000051d8) [info] Exiting coroutine for node MediaDownloadItemConverterWorkerNode
+13:02:17 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265C551C0) to ( AudioWriterNode, 000002A25F4555A0). Type: FileMessage
+13:02:17 +0900 (0x00005144) [info] Creating connection from (AudioWriterNode, 000002A25F4555A0) to ( FileReleaserWorkerNode, 000002A25F590F30). Type: FileMessage
+13:02:17 +0900 (0x00005144) [info] Creating connection from (SearchMusicTagsNode, 000002A25FC4DD30) to ( AudioWriterNode, 000002A25F4555A0). Type: MusicMetadataMessage
+13:02:17 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265C551C0) to ( DownloadProgressWorkerNode, 000002A265C57BC0). Type: ContentSize
+13:02:17 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265C551C0) to ( DownloadProgressWorkerNode, 000002A265C57BC0). Type: ContentSize
+13:02:17 +0900 (0x00005144) [info] App Graph: preparing request for graph: Downloader Graph
+13:02:17 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ProgressMessage
+13:02:17 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: FileMessage
+13:02:17 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RegisterFileMessage
+13:02:17 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RemoveFileMessage
+13:02:17 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ReleaseFileMessage
+13:02:17 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:02:17 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:02:17 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: SubtitleMessage
+13:02:17 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'download' (current stats: (r/p/l) 1/0/20)
+13:02:17 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:02:17 +0900 (0x00008c40) [info] Entering coroutine for node DownloadSubscriber
+13:02:17 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:02:17 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:02:17 +0900 (0x000051d8) [info] Entering coroutine for node DownloadSubscriber
+13:02:17 +0900 (0x00008c40) [info] Entering coroutine for node DownloadSubscriber
+13:02:17 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:02:17 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:02:17 +0900 (0x000051d8) [info] Entering coroutine for node SearchMusicTagsNode
+13:02:17 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:02:17 +0900 (0x00008c40) [info] Entering coroutine for node AudioDownloaderWorkerNode
+13:02:17 +0900 (0x0000bdd4) [info] Entering coroutine for node SubtitlesDownloaderWorkerNode
+13:02:17 +0900 (0x0000bf68) [info] Entering coroutine for node AudioWriterNode
+13:02:17 +0900 (0x00008c40) [info] Entering coroutine for node FileReleaserWorkerNode
+13:02:17 +0900 (0x0000bdd4) [info] Exiting coroutine for node SubtitlesDownloaderWorkerNode
+13:02:17 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:02:17 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:02:18 +0900 (0x0000bf68) [info] Exiting coroutine for node AudioDownloaderWorkerNode
+13:02:19 +0900 (0x0000bf68) [info] Exiting coroutine for node SearchMusicTagsNode
+13:02:22 +0900 (0x000051d8) [info] Exiting coroutine for node AudioWriterNode
+13:02:22 +0900 (0x00008c40) [info] Exiting coroutine for node FileReleaserWorkerNode
+13:02:22 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:02:22 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'download' (current stats: (r/p/l) 0/0/20)
+13:02:22 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:02:22 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadSubscriber
+13:02:22 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:02:22 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:02:22 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:02:22 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:02:22 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:02:22 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadSubscriber
+13:06:10 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/determine_service
+13:06:10 +0900 (0x00005144) [info] App Graph: preparing request for graph: ServiceDeterminatorWorkerNode
+13:06:10 +0900 (0x00005144) [info] Attaching tracker node(DetermineServiceRequest::DetermineServiceSubscriber) to graph (ServiceDeterminatorWorkerNodeWrapper). Type: ServiceDeterminationResultMessage
+13:06:10 +0900 (0x00005144) [info] App Graph: performing request for url: parsers/determine_service
+13:06:10 +0900 (0x000051d8) [info] Entering coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:06:10 +0900 (0x0000bf68) [info] Entering coroutine for node ServiceDeterminatorWorkerNode
+13:06:10 +0900 (0x0000bf68) [info] Exiting coroutine for node ServiceDeterminatorWorkerNode
+13:06:10 +0900 (0x00008c40) [info] Exiting coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:06:10 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/youtube
+13:06:10 +0900 (0x00005144) [info] Creating connection from (YoutubeParserNode, 000002A265884CA0) to ( MediaDownloadItemConverterWorkerNode, 000002A25F450CE0). Type: MediaDownloadItemMessage
+13:06:10 +0900 (0x00005144) [info] App Graph: preparing request for graph: YoutubeParserGraph
+13:06:10 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: ProgressMessage
+13:06:10 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemDescriptionMessage
+13:06:10 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMetadataMessage
+13:06:10 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMessage
+13:06:10 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: SubtitleInfosMessage
+13:06:10 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+13:06:10 +0900 (0x0000bdd4) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:06:10 +0900 (0x00008c40) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:06:10 +0900 (0x0000bf68) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:06:10 +0900 (0x000051d8) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:06:10 +0900 (0x0000bdd4) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:06:10 +0900 (0x00008c40) [info] Entering coroutine for node YoutubeParserNode
+13:06:10 +0900 (0x0000bf68) [info] Entering coroutine for node MediaDownloadItemConverterWorkerNode
+13:06:19 +0900 (0x0000bdd4) [info] Exiting coroutine for node YoutubeParserNode
+13:06:22 +0900 (0x0000bdd4) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:06:22 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+13:06:22 +0900 (0x000051d8) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:06:22 +0900 (0x0000bf68) [info] Exiting coroutine for node MediaDownloadItemConverterWorkerNode
+13:06:22 +0900 (0x00008c40) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:06:22 +0900 (0x0000bf68) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:06:22 +0900 (0x00008c40) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:06:22 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265C548C0) to ( AudioWriterNode, 000002A25F456BA0). Type: FileMessage
+13:06:22 +0900 (0x00005144) [info] Creating connection from (AudioWriterNode, 000002A25F456BA0) to ( FileReleaserWorkerNode, 000002A25F591630). Type: FileMessage
+13:06:22 +0900 (0x00005144) [info] Creating connection from (SearchMusicTagsNode, 000002A265AE3510) to ( AudioWriterNode, 000002A25F456BA0). Type: MusicMetadataMessage
+13:06:22 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265C548C0) to ( DownloadProgressWorkerNode, 000002A265C560C0). Type: ContentSize
+13:06:22 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265C548C0) to ( DownloadProgressWorkerNode, 000002A265C560C0). Type: ContentSize
+13:06:22 +0900 (0x00005144) [info] App Graph: preparing request for graph: Downloader Graph
+13:06:22 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ProgressMessage
+13:06:22 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: FileMessage
+13:06:22 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RegisterFileMessage
+13:06:22 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RemoveFileMessage
+13:06:22 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ReleaseFileMessage
+13:06:22 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:06:22 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:06:22 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: SubtitleMessage
+13:06:22 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'download' (current stats: (r/p/l) 1/0/20)
+13:06:22 +0900 (0x00008c40) [info] Entering coroutine for node AudioDownloaderWorkerNode
+13:06:22 +0900 (0x0000bf68) [info] Entering coroutine for node SearchMusicTagsNode
+13:06:22 +0900 (0x000051d8) [info] Entering coroutine for node AudioWriterNode
+13:06:22 +0900 (0x0000bdd4) [info] Entering coroutine for node FileReleaserWorkerNode
+13:06:22 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:06:22 +0900 (0x000051d8) [info] Entering coroutine for node SubtitlesDownloaderWorkerNode
+13:06:22 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:06:22 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:06:22 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:06:22 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:06:22 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:06:22 +0900 (0x000051d8) [info] Entering coroutine for node DownloadSubscriber
+13:06:22 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:06:22 +0900 (0x000051d8) [info] Exiting coroutine for node SubtitlesDownloaderWorkerNode
+13:06:22 +0900 (0x00008c40) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:06:22 +0900 (0x000051d8) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:06:22 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:06:23 +0900 (0x000051d8) [info] Exiting coroutine for node AudioDownloaderWorkerNode
+13:06:25 +0900 (0x0000bf68) [info] Exiting coroutine for node SearchMusicTagsNode
+13:06:27 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:06:27 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadSubscriber
+13:06:27 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:06:27 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:06:27 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:06:27 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:06:27 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadSubscriber
+13:06:27 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'download' (current stats: (r/p/l) 0/0/20)
+13:06:27 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:06:27 +0900 (0x0000bdd4) [info] Exiting coroutine for node AudioWriterNode
+13:06:27 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:06:27 +0900 (0x000051d8) [info] Exiting coroutine for node FileReleaserWorkerNode
+13:06:53 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/determine_service
+13:06:53 +0900 (0x00005144) [info] App Graph: preparing request for graph: ServiceDeterminatorWorkerNode
+13:06:53 +0900 (0x00005144) [info] Attaching tracker node(DetermineServiceRequest::DetermineServiceSubscriber) to graph (ServiceDeterminatorWorkerNodeWrapper). Type: ServiceDeterminationResultMessage
+13:06:53 +0900 (0x00005144) [info] App Graph: performing request for url: parsers/determine_service
+13:06:53 +0900 (0x00008c40) [info] Entering coroutine for node ServiceDeterminatorWorkerNode
+13:06:53 +0900 (0x000051d8) [info] Entering coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:06:53 +0900 (0x00008c40) [info] Exiting coroutine for node ServiceDeterminatorWorkerNode
+13:06:53 +0900 (0x00008c40) [info] Exiting coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:06:53 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/youtube
+13:06:53 +0900 (0x00005144) [info] Creating connection from (YoutubeParserNode, 000002A2654A1FC0) to ( MediaDownloadItemConverterWorkerNode, 000002A25F450500). Type: MediaDownloadItemMessage
+13:06:53 +0900 (0x00005144) [info] App Graph: preparing request for graph: YoutubeParserGraph
+13:06:53 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: ProgressMessage
+13:06:53 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemDescriptionMessage
+13:06:53 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMetadataMessage
+13:06:53 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMessage
+13:06:53 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: SubtitleInfosMessage
+13:06:53 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+13:06:53 +0900 (0x0000bdd4) [info] Entering coroutine for node MediaDownloadItemConverterWorkerNode
+13:06:53 +0900 (0x00008c40) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:06:53 +0900 (0x0000bf68) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:06:53 +0900 (0x000051d8) [info] Entering coroutine for node YoutubeParserNode
+13:06:53 +0900 (0x00008c40) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:06:53 +0900 (0x0000bdd4) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:06:53 +0900 (0x0000bf68) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:06:59 +0900 (0x00008c40) [info] Exiting coroutine for node YoutubeParserNode
+13:07:01 +0900 (0x00008c40) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:07:01 +0900 (0x0000bf68) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:07:01 +0900 (0x000051d8) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:07:01 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+13:07:01 +0900 (0x0000bdd4) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:07:01 +0900 (0x000051d8) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:07:01 +0900 (0x0000bf68) [info] Exiting coroutine for node MediaDownloadItemConverterWorkerNode
+13:07:01 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265ACFB00) to ( AudioWriterNode, 000002A25F455860). Type: FileMessage
+13:07:01 +0900 (0x00005144) [info] Creating connection from (AudioWriterNode, 000002A25F455860) to ( FileReleaserWorkerNode, 000002A25F58F870). Type: FileMessage
+13:07:01 +0900 (0x00005144) [info] Creating connection from (SearchMusicTagsNode, 000002A265AE4610) to ( AudioWriterNode, 000002A25F455860). Type: MusicMetadataMessage
+13:07:01 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265ACFB00) to ( DownloadProgressWorkerNode, 000002A265AD0100). Type: ContentSize
+13:07:01 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265ACFB00) to ( DownloadProgressWorkerNode, 000002A265AD0100). Type: ContentSize
+13:07:01 +0900 (0x00005144) [info] App Graph: preparing request for graph: Downloader Graph
+13:07:01 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ProgressMessage
+13:07:01 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: FileMessage
+13:07:01 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RegisterFileMessage
+13:07:01 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RemoveFileMessage
+13:07:01 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ReleaseFileMessage
+13:07:01 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:07:01 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:07:01 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: SubtitleMessage
+13:07:01 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'download' (current stats: (r/p/l) 1/0/20)
+13:07:01 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:07:01 +0900 (0x000051d8) [info] Entering coroutine for node DownloadSubscriber
+13:07:01 +0900 (0x00008c40) [info] Entering coroutine for node DownloadSubscriber
+13:07:01 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:07:01 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:07:01 +0900 (0x000051d8) [info] Entering coroutine for node DownloadSubscriber
+13:07:01 +0900 (0x00008c40) [info] Entering coroutine for node AudioDownloaderWorkerNode
+13:07:01 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:07:01 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:07:01 +0900 (0x000051d8) [info] Entering coroutine for node SearchMusicTagsNode
+13:07:01 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:07:01 +0900 (0x00008c40) [info] Entering coroutine for node SubtitlesDownloaderWorkerNode
+13:07:01 +0900 (0x0000bdd4) [info] Entering coroutine for node AudioWriterNode
+13:07:01 +0900 (0x0000bf68) [info] Entering coroutine for node FileReleaserWorkerNode
+13:07:01 +0900 (0x0000bdd4) [info] Exiting coroutine for node SubtitlesDownloaderWorkerNode
+13:07:01 +0900 (0x00008c40) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:07:01 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:07:02 +0900 (0x000051d8) [info] Exiting coroutine for node AudioDownloaderWorkerNode
+13:07:03 +0900 (0x000051d8) [info] Exiting coroutine for node SearchMusicTagsNode
+13:07:05 +0900 (0x000051d8) [info] Exiting coroutine for node AudioWriterNode
+13:07:05 +0900 (0x00008c40) [info] Exiting coroutine for node FileReleaserWorkerNode
+13:07:05 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'download' (current stats: (r/p/l) 0/0/20)
+13:07:05 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:07:05 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:07:05 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadSubscriber
+13:07:05 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadSubscriber
+13:07:05 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:07:05 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:07:05 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:07:05 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadSubscriber
+13:07:05 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:07:06 +0900 (0x00005144) [warning] QString::arg: Argument missing: You have downloaded several audios from this user. You can get all audios from this channel in one click., jump sky (:0, )
+13:07:08 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/determine_service
+13:07:08 +0900 (0x00005144) [info] App Graph: preparing request for graph: ServiceDeterminatorWorkerNode
+13:07:08 +0900 (0x00005144) [info] Attaching tracker node(DetermineServiceRequest::DetermineServiceSubscriber) to graph (ServiceDeterminatorWorkerNodeWrapper). Type: ServiceDeterminationResultMessage
+13:07:08 +0900 (0x00005144) [info] App Graph: performing request for url: parsers/determine_service
+13:07:08 +0900 (0x00008c40) [info] Entering coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:07:08 +0900 (0x000051d8) [info] Entering coroutine for node ServiceDeterminatorWorkerNode
+13:07:08 +0900 (0x000051d8) [info] Exiting coroutine for node ServiceDeterminatorWorkerNode
+13:07:08 +0900 (0x0000bf68) [info] Exiting coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:07:08 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/youtube/channel
+13:07:08 +0900 (0x00005144) [info] Creating connection from (YoutubeChannelParserNode, 000002A2654A1D80) to ( UrlParserResultToMediaItemDescriptionsWorkerNode, 000002A25F4C2DF0). Type: UrlParserResultMessage
+13:07:08 +0900 (0x00005144) [info] Creating connection from (UrlParserResultToMediaItemDescriptionsWorkerNode, 000002A25F4C2DF0) to ( YoutubeMediaItemDescriptionGetterNode, 000002A25F361E00). Type: MediaItemDescriptionMessage
+13:07:08 +0900 (0x00005144) [info] App Graph: preparing request for graph: YoutubeChannelParserGraph
+13:07:08 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeChannelParserGraphWrapper). Type: MediaItemMetadataMessage
+13:07:08 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeChannelParserGraphWrapper). Type: PartialMediaItemDescriptionMessage
+13:07:08 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeChannelParserGraphWrapper). Type: MediaItemDescriptionMessage
+13:07:08 +0900 (0x00005144) [info] App Graph: performing request for url: parsers/youtube/channel
+13:07:08 +0900 (0x00008c40) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:07:08 +0900 (0x00008c40) [info] Entering coroutine for node YoutubeChannelParserNode
+13:07:08 +0900 (0x000051d8) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:07:08 +0900 (0x0000bdd4) [info] Entering coroutine for node UrlParserResultToMediaItemDescriptionsWorkerNode
+13:07:08 +0900 (0x000051d8) [info] Entering coroutine for node YoutubeMediaItemDescriptionGetterNode
+13:07:08 +0900 (0x0000bf68) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:07:10 +0900 (0x000051d8) [info] Exiting coroutine for node YoutubeChannelParserNode
+13:07:10 +0900 (0x0000bf68) [info] Entering coroutine for node YoutubeMediaItemDescriptionGetterNode
+13:07:10 +0900 (0x0000bf68) [info] Entering coroutine for node YoutubeMediaItemDescriptionGetterNode
+13:07:11 +0900 (0x0000bdd4) [info] Exiting coroutine for node YoutubeMediaItemDescriptionGetterNode
+13:07:11 +0900 (0x000051d8) [info] Exiting coroutine for node UrlParserResultToMediaItemDescriptionsWorkerNode
+13:07:11 +0900 (0x0000bf68) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:07:11 +0900 (0x00008c40) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:07:11 +0900 (0x0000bdd4) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:07:11 +0900 (0x000051d8) [info] Exiting coroutine for node YoutubeMediaItemDescriptionGetterNode
+13:07:11 +0900 (0x0000bf68) [info] Exiting coroutine for node YoutubeMediaItemDescriptionGetterNode
+13:13:06 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/determine_service
+13:13:06 +0900 (0x00005144) [info] App Graph: preparing request for graph: ServiceDeterminatorWorkerNode
+13:13:06 +0900 (0x00005144) [info] Attaching tracker node(DetermineServiceRequest::DetermineServiceSubscriber) to graph (ServiceDeterminatorWorkerNodeWrapper). Type: ServiceDeterminationResultMessage
+13:13:06 +0900 (0x00005144) [info] App Graph: performing request for url: parsers/determine_service
+13:13:06 +0900 (0x00008c40) [info] Entering coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:13:06 +0900 (0x0000bf68) [info] Entering coroutine for node ServiceDeterminatorWorkerNode
+13:13:06 +0900 (0x0000bf68) [info] Exiting coroutine for node ServiceDeterminatorWorkerNode
+13:13:06 +0900 (0x000051d8) [info] Exiting coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:13:06 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/youtube
+13:13:06 +0900 (0x00005144) [info] Creating connection from (YoutubeParserNode, 000002A260000CA0) to ( MediaDownloadItemConverterWorkerNode, 000002A25F44F000). Type: MediaDownloadItemMessage
+13:13:06 +0900 (0x00005144) [info] App Graph: preparing request for graph: YoutubeParserGraph
+13:13:06 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: ProgressMessage
+13:13:06 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemDescriptionMessage
+13:13:06 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMetadataMessage
+13:13:06 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMessage
+13:13:06 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: SubtitleInfosMessage
+13:13:06 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+13:13:06 +0900 (0x0000bf68) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:13:06 +0900 (0x000051d8) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:13:06 +0900 (0x00008c40) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:13:06 +0900 (0x0000bdd4) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:13:06 +0900 (0x0000bf68) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:13:06 +0900 (0x000051d8) [info] Entering coroutine for node YoutubeParserNode
+13:13:06 +0900 (0x0000bdd4) [info] Entering coroutine for node MediaDownloadItemConverterWorkerNode
+13:13:08 +0900 (0x00008c40) [info] Exiting coroutine for node YoutubeParserNode
+13:13:08 +0900 (0x000051d8) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:13:08 +0900 (0x00008c40) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:13:08 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+13:13:08 +0900 (0x0000bf68) [info] Exiting coroutine for node MediaDownloadItemConverterWorkerNode
+13:13:08 +0900 (0x00008c40) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:13:08 +0900 (0x000051d8) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:13:08 +0900 (0x00008c40) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:13:08 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265ACD400) to ( AudioWriterNode, 000002A25F4555A0). Type: FileMessage
+13:13:08 +0900 (0x00005144) [info] Creating connection from (AudioWriterNode, 000002A25F4555A0) to ( FileReleaserWorkerNode, 000002A25F590BB0). Type: FileMessage
+13:13:08 +0900 (0x00005144) [info] Creating connection from (SearchMusicTagsNode, 000002A25450FA10) to ( AudioWriterNode, 000002A25F4555A0). Type: MusicMetadataMessage
+13:13:08 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265ACD400) to ( DownloadProgressWorkerNode, 000002A265ACF200). Type: ContentSize
+13:13:08 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265ACD400) to ( DownloadProgressWorkerNode, 000002A265ACF200). Type: ContentSize
+13:13:08 +0900 (0x00005144) [info] App Graph: preparing request for graph: Downloader Graph
+13:13:08 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ProgressMessage
+13:13:08 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: FileMessage
+13:13:08 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RegisterFileMessage
+13:13:08 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RemoveFileMessage
+13:13:08 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ReleaseFileMessage
+13:13:08 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:13:08 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:13:08 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: SubtitleMessage
+13:13:08 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'download' (current stats: (r/p/l) 1/0/20)
+13:13:08 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:13:08 +0900 (0x00008c40) [info] Entering coroutine for node DownloadSubscriber
+13:13:08 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:13:08 +0900 (0x000051d8) [info] Entering coroutine for node DownloadSubscriber
+13:13:08 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:13:08 +0900 (0x00008c40) [info] Entering coroutine for node DownloadSubscriber
+13:13:08 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:13:08 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:13:08 +0900 (0x000051d8) [info] Entering coroutine for node SearchMusicTagsNode
+13:13:08 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:13:08 +0900 (0x00008c40) [info] Entering coroutine for node AudioDownloaderWorkerNode
+13:13:08 +0900 (0x0000bf68) [info] Entering coroutine for node AudioWriterNode
+13:13:08 +0900 (0x0000bdd4) [info] Entering coroutine for node FileReleaserWorkerNode
+13:13:08 +0900 (0x0000bf68) [info] Entering coroutine for node SubtitlesDownloaderWorkerNode
+13:13:08 +0900 (0x000051d8) [info] Exiting coroutine for node SubtitlesDownloaderWorkerNode
+13:13:08 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:13:08 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:13:10 +0900 (0x0000bf68) [info] Exiting coroutine for node AudioDownloaderWorkerNode
+13:13:11 +0900 (0x000051d8) [info] Exiting coroutine for node SearchMusicTagsNode
+13:13:16 +0900 (0x00008c40) [info] Exiting coroutine for node AudioWriterNode
+13:13:16 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'download' (current stats: (r/p/l) 0/0/20)
+13:13:16 +0900 (0x000051d8) [info] Exiting coroutine for node FileReleaserWorkerNode
+13:13:16 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:13:16 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadSubscriber
+13:13:16 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:13:16 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadSubscriber
+13:13:16 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:13:16 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:13:16 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:13:16 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadSubscriber
+13:13:16 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:17:04 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/determine_service
+13:17:04 +0900 (0x00005144) [info] App Graph: preparing request for graph: ServiceDeterminatorWorkerNode
+13:17:04 +0900 (0x00005144) [info] Attaching tracker node(DetermineServiceRequest::DetermineServiceSubscriber) to graph (ServiceDeterminatorWorkerNodeWrapper). Type: ServiceDeterminationResultMessage
+13:17:04 +0900 (0x00005144) [info] App Graph: performing request for url: parsers/determine_service
+13:17:04 +0900 (0x000051d8) [info] Entering coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:17:04 +0900 (0x00008c40) [info] Entering coroutine for node ServiceDeterminatorWorkerNode
+13:17:04 +0900 (0x00008c40) [info] Exiting coroutine for node ServiceDeterminatorWorkerNode
+13:17:04 +0900 (0x0000bf68) [info] Exiting coroutine for node DetermineServiceRequest::DetermineServiceSubscriber
+13:17:04 +0900 (0x00005144) [info] App Graph: preparing request for url: parsers/youtube
+13:17:04 +0900 (0x00005144) [info] Creating connection from (YoutubeParserNode, 000002A265772EF0) to ( MediaDownloadItemConverterWorkerNode, 000002A25F44F2A0). Type: MediaDownloadItemMessage
+13:17:04 +0900 (0x00005144) [info] App Graph: preparing request for graph: YoutubeParserGraph
+13:17:04 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: ProgressMessage
+13:17:04 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemDescriptionMessage
+13:17:04 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMetadataMessage
+13:17:04 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: MediaItemMessage
+13:17:04 +0900 (0x00005144) [info] Attaching tracker node(ParseRequest::ParserSubscriber) to graph (YoutubeParserGraphWrapper). Type: SubtitleInfosMessage
+13:17:04 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+13:17:04 +0900 (0x00008c40) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:17:04 +0900 (0x0000bdd4) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:17:04 +0900 (0x0000bf68) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:17:04 +0900 (0x0000bdd4) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:17:04 +0900 (0x00008c40) [info] Entering coroutine for node YoutubeParserNode
+13:17:04 +0900 (0x0000bf68) [info] Entering coroutine for node MediaDownloadItemConverterWorkerNode
+13:17:04 +0900 (0x000051d8) [info] Entering coroutine for node ParseRequest::ParserSubscriber
+13:17:07 +0900 (0x0000bdd4) [info] Exiting coroutine for node YoutubeParserNode
+13:17:07 +0900 (0x000051d8) [info] Exiting coroutine for node MediaDownloadItemConverterWorkerNode
+13:17:07 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+13:17:07 +0900 (0x00008c40) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:17:07 +0900 (0x0000bdd4) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:17:07 +0900 (0x0000bf68) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:17:07 +0900 (0x00008c40) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:17:07 +0900 (0x000051d8) [info] Exiting coroutine for node ParseRequest::ParserSubscriber
+13:17:07 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265ACE900) to ( AudioWriterNode, 000002A265AC9DC0). Type: FileMessage
+13:17:07 +0900 (0x00005144) [info] Creating connection from (AudioWriterNode, 000002A265AC9DC0) to ( FileReleaserWorkerNode, 000002A25F58FF70). Type: FileMessage
+13:17:07 +0900 (0x00005144) [info] Creating connection from (SearchMusicTagsNode, 000002A25FC4E170) to ( AudioWriterNode, 000002A265AC9DC0). Type: MusicMetadataMessage
+13:17:07 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265ACE900) to ( DownloadProgressWorkerNode, 000002A265ACFE00). Type: ContentSize
+13:17:07 +0900 (0x00005144) [info] Creating connection from (AudioDownloaderWorkerNode, 000002A265ACE900) to ( DownloadProgressWorkerNode, 000002A265ACFE00). Type: ContentSize
+13:17:07 +0900 (0x00005144) [info] App Graph: preparing request for graph: Downloader Graph
+13:17:07 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ProgressMessage
+13:17:07 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: FileMessage
+13:17:07 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RegisterFileMessage
+13:17:07 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: RemoveFileMessage
+13:17:07 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ReleaseFileMessage
+13:17:07 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:17:07 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: ContentSize
+13:17:07 +0900 (0x00005144) [info] Attaching tracker node(DownloadSubscriber) to graph (Downloader GraphWrapper). Type: SubtitleMessage
+13:17:07 +0900 (0x00005144) [info] Simultaneously running controllers queue: push to 'download' (current stats: (r/p/l) 1/0/20)
+13:17:07 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:17:07 +0900 (0x000051d8) [info] Entering coroutine for node DownloadSubscriber
+13:17:07 +0900 (0x00008c40) [info] Entering coroutine for node DownloadSubscriber
+13:17:07 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:17:07 +0900 (0x000051d8) [info] Entering coroutine for node DownloadSubscriber
+13:17:07 +0900 (0x0000bf68) [info] Entering coroutine for node DownloadSubscriber
+13:17:07 +0900 (0x000051d8) [info] Entering coroutine for node SearchMusicTagsNode
+13:17:07 +0900 (0x00008c40) [info] Entering coroutine for node DownloadSubscriber
+13:17:07 +0900 (0x0000bf68) [info] Entering coroutine for node AudioDownloaderWorkerNode
+13:17:07 +0900 (0x0000bdd4) [info] Entering coroutine for node DownloadSubscriber
+13:17:07 +0900 (0x00008c40) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:17:07 +0900 (0x0000bf68) [info] Entering coroutine for node AudioWriterNode
+13:17:07 +0900 (0x0000bdd4) [info] Entering coroutine for node FileReleaserWorkerNode
+13:17:07 +0900 (0x00008c40) [info] Entering coroutine for node SubtitlesDownloaderWorkerNode
+13:17:07 +0900 (0x0000bf68) [info] Exiting coroutine for node SubtitlesDownloaderWorkerNode
+13:17:07 +0900 (0x000051d8) [info] Entering coroutine for node DownloadProgressWorkerNode
+13:17:07 +0900 (0x000051d8) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:17:09 +0900 (0x0000bdd4) [info] Exiting coroutine for node AudioDownloaderWorkerNode
+13:17:09 +0900 (0x0000bdd4) [info] Exiting coroutine for node SearchMusicTagsNode
+13:17:16 +0900 (0x000051d8) [info] Exiting coroutine for node FileReleaserWorkerNode
+13:17:16 +0900 (0x000021c0) [info] Simultaneously running controllers queue: pop from 'download' (current stats: (r/p/l) 0/0/20)
+13:17:16 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadProgressWorkerNode
+13:17:16 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:17:16 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:17:16 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:17:16 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:17:16 +0900 (0x00008c40) [info] Exiting coroutine for node AudioWriterNode
+13:17:16 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+13:17:16 +0900 (0x00008c40) [info] Exiting coroutine for node DownloadSubscriber
+13:17:16 +0900 (0x0000bf68) [info] Exiting coroutine for node DownloadSubscriber
+13:17:16 +0900 (0x0000bdd4) [info] Exiting coroutine for node DownloadSubscriber
+16:00:29 +0900 (0x00005144) [info] [SoftwareUpdate] [Manager] checking
+16:00:29 +0900 (0x00005144) [info] [SoftwareUpdate] [Manager] parsing
+16:00:29 +0900 (0x00005144) [info] [SoftwareUpdate] [Manager] no update available
+19:00:29 +0900 (0x00005144) [info] [SoftwareUpdate] [Manager] checking
+19:00:29 +0900 (0x00005144) [info] [SoftwareUpdate] [Manager] parsing
+19:00:29 +0900 (0x00005144) [info] [SoftwareUpdate] [Manager] no update available
+19:00:59 +0900 (0x00005144) [info] [Feedback] [MessageCenter] downloaded
+19:00:59 +0900 (0x00005144) [info] [Feedback] [MessageCenter] extracting messages
+19:00:59 +0900 (0x00005144) [info] [Feedback] [MessageCenter] extracted 0 messages
+22:00:29 +0900 (0x00005144) [info] [SoftwareUpdate] [Manager] checking
+22:00:29 +0900 (0x00005144) [info] [SoftwareUpdate] [Manager] parsing
+22:00:29 +0900 (0x00005144) [info] [SoftwareUpdate] [Manager] no update available
+00:04:17 +0900 (0x00005144) [warning] QMainWindow::saveState(): 'objectName' not set for QToolBar 0x2a25f8ccdd0 '' (:0, )
+00:04:17 +0900 (0x00005144) [info] Stopping simultaneously running controllers queue 'parse'
+00:04:17 +0900 (0x00005144) [info] Stopping simultaneously running controllers queue 'download'
+00:04:17 +0900 (0x0000bc58) [info] AsioContext::IoContext::threadFunc finished
+00:04:17 +0900 (0x00003120) [info] AsioContext::IoContext::threadFunc finished
+00:04:17 +0900 (0x00002ee0) [info] AsioContext::IoContext::threadFunc finished
+00:04:17 +0900 (0x000083b8) [info] AsioContext::IoContext::threadFunc finished
+00:04:17 +0900 (0x000051d8) [info] AsioContext::IoContext::threadFunc finished
+00:04:17 +0900 (0x00008c40) [info] AsioContext::IoContext::threadFunc finished
+00:04:17 +0900 (0x0000bf68) [info] AsioContext::IoContext::threadFunc finished
+00:04:17 +0900 (0x0000bdd4) [info] AsioContext::IoContext::threadFunc finished
+00:04:17 +0900 (0x00005144) [warning] QObject::disconnect: No such signal QObject::changed() (:0, )
+00:04:17 +0900 (0x00005144) [warning] QObject::disconnect: No such signal QObject::changed() (:0, )
+00:04:17 +0900 (0x00005144) [warning] QObject::disconnect: No such signal QObject::changed() (:0, )
+00:04:17 +0900 (0x00005144) [warning] QObject::disconnect: No such signal QObject::changed() (:0, )

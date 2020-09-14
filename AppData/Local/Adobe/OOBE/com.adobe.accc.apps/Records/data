@@ -1,0 +1,3 @@
+<operationRecords><operationRecord><operation>KANC::</operation><data><time>1595603468</time><operationType>2</operationType><sapVersionPairs><sapVersionPair><sapCode>KANC</sapCode><version>2.0.1</version></sapVersionPair></sapVersionPairs></data>
+	</operationRecord><operationRecord><operation>KANC::2.0.1</operation><data><time>1595603468</time><operationType>2</operationType><sapVersionPairs><sapVersionPair><sapCode>KANC</sapCode><version>2.0.1</version></sapVersionPair></sapVersionPairs></data>
+	</operationRecord></operationRecords>

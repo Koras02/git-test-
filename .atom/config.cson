@@ -1,0 +1,9 @@
+"*":
+  core:
+    uriHandlerRegistration: "never"
+  editor:
+    fontSize: 12
+  "exception-reporting":
+    userId: "ee27b87e-05ce-43a8-92ed-39ce1a0d2859"
+  "tree-view":
+    hideVcsIgnoredFiles: true

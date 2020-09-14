@@ -1,0 +1,24 @@
+21:45:30 +0900 (0x00009c3c) [info] Starting handler at C:/Program Files/4KDownload/4kvideodownloader
+21:45:30 +0900 (0x00009c3c) [info] [app_Gui] [Translator] Using locale ko_KR
+21:45:30 +0900 (0x00009c3c) [info] [SoftwareUpdate] [Manager] appId=4kvideodownloader, appName=4K Video Downloader, appVersion=4.12.5.3670, appCast=https://dl.4kdownload.com/app/appcast/videodownloader.xml
+21:45:32 +0900 (0x00009c3c) [warning] QObject::connect: Cannot queue arguments of type 'Base::PropertyChangedSignalArgs'
+(Make sure 'Base::PropertyChangedSignalArgs' is registered using qRegisterMetaType().) (:0, )
+21:45:40 +0900 (0x00009c3c) [info] [SoftwareUpdate] [Manager] checking
+21:45:40 +0900 (0x00009c3c) [info] [SoftwareUpdate] [Manager] parsing
+21:45:40 +0900 (0x00009c3c) [info] [SoftwareUpdate] [Manager] no update available
+21:45:49 +0900 (0x00009c3c) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 150' (:0, )
+21:45:49 +0900 (0x00009c3c) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 150' (:0, )
+21:45:49 +0900 (0x00009c3c) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 150' (:0, )
+21:45:49 +0900 (0x00009c3c) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 150' (:0, )
+21:45:49 +0900 (0x00009c3c) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 150' (:0, )
+21:45:49 +0900 (0x00009c3c) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 150' (:0, )
+21:45:49 +0900 (0x00009c3c) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 150' (:0, )
+21:45:49 +0900 (0x00009c3c) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 150' (:0, )
+21:45:49 +0900 (0x00009c3c) [warning] QCssParser::parseColorValue: Specified color without alpha value but alpha given: 'rgb 0, 0, 0, 150' (:0, )
+21:46:00 +0900 (0x00009c3c) [info] [Feedback] [MessageCenter] downloaded
+21:46:00 +0900 (0x00009c3c) [info] [Feedback] [MessageCenter] extracting messages
+21:46:00 +0900 (0x00009c3c) [info] [Feedback] [MessageCenter] extracted 0 messages
+21:46:44 +0900 (0x0000ae08) [info] Start remux
+21:46:44 +0900 (0x0000ae08) [info] End remux
+23:50:58 +0900 (0x00009c3c) [warning] QMainWindow::saveState(): 'objectName' not set for QToolBar 0x197415b6b40 '' (:0, )
+23:50:58 +0900 (0x00009c3c) [warning] QObject::disconnect: No such signal QObject::changed() (:0, )

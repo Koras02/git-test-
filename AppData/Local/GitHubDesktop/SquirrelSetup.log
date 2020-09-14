@@ -1,0 +1,33 @@
+﻿2020-07-20 23:43:48> Program: Starting Squirrel Updater: --createShortcut GitHubDesktop.exe -l StartMenu,Desktop
+2020-07-20 23:43:48> ApplyReleasesImpl: About to create shortcuts for GitHubDesktop.exe, rootAppDir C:\Users\wjdgh0727\AppData\Local\GitHubDesktop
+2020-07-20 23:43:48> ApplyReleasesImpl: Creating shortcut for GitHubDesktop.exe => C:\Users\wjdgh0727\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc.\GitHub Desktop.lnk
+2020-07-20 23:43:48> ApplyReleasesImpl: About to save shortcut: C:\Users\wjdgh0727\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc.\GitHub Desktop.lnk (target C:\Users\wjdgh0727\AppData\Local\GitHubDesktop\GitHubDesktop.exe, workingDir C:\Users\wjdgh0727\AppData\Local\GitHubDesktop\app-2.5.3, args , toastActivatorCSLID 27d44d0c-a542-5b90-bcdb-ac3126048ba2)
+2020-07-20 23:43:48> ApplyReleasesImpl: Creating shortcut for GitHubDesktop.exe => C:\Users\wjdgh0727\Desktop\GitHub Desktop.lnk
+2020-07-20 23:43:48> ApplyReleasesImpl: About to save shortcut: C:\Users\wjdgh0727\Desktop\GitHub Desktop.lnk (target C:\Users\wjdgh0727\AppData\Local\GitHubDesktop\GitHubDesktop.exe, workingDir C:\Users\wjdgh0727\AppData\Local\GitHubDesktop\app-2.5.3, args , toastActivatorCSLID 27d44d0c-a542-5b90-bcdb-ac3126048ba2)
+2020-07-20 23:43:48> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2020-07-20 23:43:48> ApplyReleasesImpl: Examining Pin: 네이버 웨일.lnk
+2020-07-20 23:43:57> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-20 23:43:57> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-20 23:43:57> CheckForUpdateImpl: Generated new staging user ID: e986a426-537a-5c4d-a937-91a56c24d47a
+2020-07-20 23:43:57> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-20 23:43:57> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.5.3&env=production&id=GitHubDesktop&localVersion=2.5.3&arch=amd64
+2020-07-21 10:26:12> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-21 10:26:12> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-21 10:26:12> CheckForUpdateImpl: Using existing staging user ID: e986a426-537a-5c4d-a937-91a56c24d47a
+2020-07-21 10:26:12> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-21 10:26:12> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.5.3&env=production&id=GitHubDesktop&localVersion=2.5.3&arch=amd64
+2020-07-21 14:26:12> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-21 14:26:12> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-21 14:26:12> CheckForUpdateImpl: Using existing staging user ID: e986a426-537a-5c4d-a937-91a56c24d47a
+2020-07-21 14:26:12> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-21 14:26:12> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.5.3&env=production&id=GitHubDesktop&localVersion=2.5.3&arch=amd64
+2020-07-21 18:26:12> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-21 18:26:12> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-21 18:26:12> CheckForUpdateImpl: Using existing staging user ID: e986a426-537a-5c4d-a937-91a56c24d47a
+2020-07-21 18:26:12> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-21 18:26:12> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.5.3&env=production&id=GitHubDesktop&localVersion=2.5.3&arch=amd64
+2020-07-22 23:30:38> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-22 23:30:38> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-22 23:30:38> CheckForUpdateImpl: Using existing staging user ID: e986a426-537a-5c4d-a937-91a56c24d47a
+2020-07-22 23:30:38> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.5.3&env=production
+2020-07-22 23:30:38> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.5.3&env=production&id=GitHubDesktop&localVersion=2.5.3&arch=amd64
